@@ -12,6 +12,9 @@ $ git submodule add -b master git@github.com:sagarpanda/reactjs-basics.git packa
 ```
 To run app
 ```sh
+$ git clone git@github.com:sagarpanda/react-qstart-lerna.git
+$ cd react-qstart-lerna
+$ git submodule update --init --recursive
 $ lerna bootstrap
 $ lerna run build --scope react-qstart
 $ lerna run start --scope reactjs-basics
