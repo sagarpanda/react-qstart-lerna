@@ -1,0 +1,8 @@
+[submodule "packages/react-qstart"]
+	path = packages/react-qstart
+	url = git@github.com:sagarpanda/react-qstart.git
+	branch = master
+[submodule "packages/reactjs-basics"]
+	path = packages/reactjs-basics
+	url = git@github.com:sagarpanda/reactjs-basics.git
+	branch = master
