@@ -1,7 +1,12 @@
 {
   "name": "root",
+  "version": "0.0.1",
+  "description": "monorepo app with lerna and yarn",
   "private": true,
   "devDependencies": {
     "lerna": "^3.5.1"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
